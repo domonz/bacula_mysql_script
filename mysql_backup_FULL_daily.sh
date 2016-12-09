@@ -1,7 +1,3 @@
-!/bin/bash
-rm -rfv  /opt/backup/DAILY-MYSQL/*
-
-root@backend:/home/domonz# cat /etc/bacula/scripts/mysql_backup_FULL_daily.sh
 #! /bin/bash
 
 DATE=$(date +"%F")
